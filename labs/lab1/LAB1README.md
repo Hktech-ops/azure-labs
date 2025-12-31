@@ -21,14 +21,14 @@ Your organization's cloud footprint has grown considerably in the last year. Dur
 ***************
 ## TASKS
 
-Task 1. Create a RG and assign tags
+**Task 1: Create a RG and assign tags**
 
 <img width="955" height="434" alt="image" src="https://github.com/user-attachments/assets/64bacc00-2146-475b-a8df-60b4cc932773" />
 
 -------------------------------
 
 
-Task 2. Enforce tagging via an Azure Policy
+**Task 2: Enforce tagging via an Azure Policy**
 
 Assingn built in policy named 'Require a tag and its value on resources' policy to the newly created RG, az104-rg2
 
@@ -46,11 +46,11 @@ Now, assigning this policy to RG via portal
 
 -----------------------------------------
 
-Task 3: Apply tagging via an Azure policy
+**Task 3: Apply tagging via an Azure policy**
 
 ----------------------------------------
 
-Task 4: Configure and test resource locks
+**Task 4: Configure and test resource locks**
 
 Apply a delete lock on Resource level
 
