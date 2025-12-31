@@ -44,8 +44,11 @@ Now, assigning this policy to RG via portal
 
 - Policy implementation verified by creating a resource
 
+-----------------------------------------
+
 Task 3: Apply tagging via an Azure policy
 
+----------------------------------------
 
 Task 4: Configure and test resource locks
 
@@ -56,5 +59,6 @@ Apply a delete lock on Resource level
 <img width="1837" height="355" alt="image" src="https://github.com/user-attachments/assets/fe222452-71aa-4531-8670-44df16890e34" />
 
 
+----------------------------------------
 
 ***Marks the end of this lab!
