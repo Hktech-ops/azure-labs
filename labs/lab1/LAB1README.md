@@ -25,6 +25,8 @@ Task 1. Create a RG and assign tags
 
 <img width="955" height="434" alt="image" src="https://github.com/user-attachments/assets/64bacc00-2146-475b-a8df-60b4cc932773" />
 
+-------------------------------
+
 
 Task 2. Enforce tagging via an Azure Policy
 
