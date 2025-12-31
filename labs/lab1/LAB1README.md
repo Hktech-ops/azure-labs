@@ -1,7 +1,19 @@
-# Lab 1: RBAC Basics
+# Lab 1: Manage Governance via Azure Policy
 
 ## Objective
-Create users, groups, and assign RBAC roles to demonstrate least privilege.
+- Implement organizations's governance plans
+- Enforce operational decisions using Azure policy
+- Use resource tagging to improve reporting
+
+
+## Lab Scenario
+Your organization's cloud footprint has grown considerably in the last year. During a recent audit, you discovered a substantial number of resources that do not have a defined owner, project, or cost center. In order to improve management of Azure resources in your organization, you decide to implement the following functionality:
+
+1. apply resource tags to attach important metadata to Azure resources
+2. enforce the use of resource tags for new resources by using Azure policy
+3. update existing resources with resource tags
+4. use resource locks to protect configured resources
+
 
 ## Steps
 1. Create a resource group
