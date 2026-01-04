@@ -39,7 +39,9 @@ b. Created two VMs, per the required parameters
 
 <img width="968" height="594" alt="image" src="https://github.com/user-attachments/assets/557c1f93-17ea-4271-8b7c-88081af87c8b" />
 
-2 VMs for zone redundancy - Zones 1 and 2. As per SLA, when you deploy 2 VMs in 2 or more zones - you get 99.99% availability!
+
+** 2 VMs for zone redundancy - Zones 1 and 2. As per SLA, when you deploy 2 VMs in 2 or more zones - you get 99.99% availability!
+
 
 <img width="1627" height="455" alt="image" src="https://github.com/user-attachments/assets/52fa809a-19f0-4b66-8473-c8260a6811b7" />
 
