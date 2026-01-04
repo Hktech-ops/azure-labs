@@ -1,4 +1,4 @@
-## Lab 8 - Manage Virtual Machines
+## Lab 3 - Manage Virtual Machines
 
 
 ## Lab Introduction:
