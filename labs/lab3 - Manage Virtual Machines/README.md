@@ -15,12 +15,11 @@ Your organization wants to explore deploying and configuring Azure virtual machi
 
 ## Showcased Skills:
 
-- Deploy zone-resilient Azure virtual machines by using the Azure portal.
-- Manage compute and storage scaling for virtual machines.
-- Create and configure Azure Virtual Machine Scale Sets.
-- Scale Azure Virtual Machine Scale Sets.
-- Create a virtual machine using Azure PowerShell (optional 1).
-- Create a virtual machine using the CLI (optional 2).
+- Deployed zone-resilient Azure virtual machines by using the Azure portal.
+- Managed compute and storage scaling for virtual machines.
+- Created and configure Azure Virtual Machine Scale Sets.
+- Scaled Azure Virtual Machine Scale Sets.
+- Created a virtual machine using Azure PowerShell
 
 
 ## Architecture Diagram:
