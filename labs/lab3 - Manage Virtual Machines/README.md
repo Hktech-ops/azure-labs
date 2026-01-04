@@ -92,7 +92,46 @@ Goal here is to deploy VM Scale Set across availability zones. VMSS reduce the a
 
 ## Task 4 - Scale Azure Virtual Machine Scale Sets:
 
-Goal is to create a VM Scale set using a custom scale rule
+Goal is to scale previously deployed VMSS using custom scale rule
+
+--------------------------------------
+
+- A word or two about scaling:
+  - There are two types of scaling - Manual and Custom autoscale
+  - Manual scaling may be a better option if there are small # of instances
+  - Custom autoscale may be appropriate with larger # of VM instances
+
+- An Azure Administrator needs to take a best call based on the organization requirements and choose the best option
+
+---------------------------------------
+
+For 'vmss1' created a custom autoscale rule which increases # of instances (scales out) by 50% when average CPU load is 70% or above for a 10 minute period
+
+<img width="875" height="548" alt="image" src="https://github.com/user-attachments/assets/b9ee144c-fcac-4247-9662-eed1e3c96cd8" />
+
+
+** Added custom auto scale out rule
+
+<img width="767" height="790" alt="image" src="https://github.com/user-attachments/assets/a3def616-f624-4342-9c1a-383ab8789722" />
+
+** For best optimization of resources, added a scale in rule to address low usage on weekends
+
+Conditoons for scale in rule : decrease VM instances by 20% when average CPU load drops below 30%, over a 10 min period
+
+<img width="1100" height="347" alt="image" src="https://github.com/user-attachments/assets/ec4f81f7-a974-4246-b9c2-871200e073d7" />
+
+
+------------------------------------------
+
+** As an additional task - I created a VM using powershell
+
+<img width="1050" height="689" alt="image" src="https://github.com/user-attachments/assets/34c0adc5-85a7-4d95-a81a-4bea122a7586" />
+
+<img width="1797" height="401" alt="image" src="https://github.com/user-attachments/assets/3861a754-0edc-4dd8-9683-d948780da084" />
+
+
+
+** THIS MARKS END OF THIS LAB**
 
 
 
