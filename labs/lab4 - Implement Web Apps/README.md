@@ -36,15 +36,38 @@ Your organization is interested in Azure Web apps for hosting your company websi
 
 # Task 2: Create and configure a deployment slot
 
+-Added a stagig slot
 
-
+<img width="1269" height="400" alt="image" src="https://github.com/user-attachments/assets/5e62ffdc-2fcf-4cf4-b567-73f72b653ab5" />
 
 
 # Task 3: Configure web app deployment settings
 
+- Linked staging slot with external Git code repo
+
+<img width="1062" height="751" alt="image" src="https://github.com/user-attachments/assets/c2a2b48b-38b1-47c7-801e-889fa7408ca0" />
+
+Staging slot outout
+
+
+
+
 # Task 4: Swap deployment slots
 
+Now that we have successfully tested staging slot, time to make it live on the production slot by swapping slots!
+
+
+
+
 # Task 5: Configure and test autoscaling of the Azure web app
+
+- Goal here is to scale out (horizontal scaling) with a mazimum of 2 instances to cater to increased traffic!
+
+- Added autoscale rule
+   - Scale out by 1 instacne if average CPU usage >= 80%
+   - Scale in by 1 instacne if average CPU usange < 30% 
+
+<img width="1240" height="820" alt="image" src="https://github.com/user-attachments/assets/793bd925-2ede-4edc-83c7-cd583882eaff" />
 
 
 
