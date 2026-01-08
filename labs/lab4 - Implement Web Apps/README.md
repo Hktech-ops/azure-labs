@@ -30,33 +30,40 @@ Your organization is interested in Azure Web apps for hosting your company websi
 <img width="1164" height="520" alt="image" src="https://github.com/user-attachments/assets/f4281c1d-8876-4722-b7fd-d483664c4e4b" />
 
 
+** Created a web app
 
-<img width="1633" height="486" alt="image" src="https://github.com/user-attachments/assets/8fae18ee-9ede-421f-b9c5-fffac5e6dd0d" />
+<img width="1724" height="536" alt="image" src="https://github.com/user-attachments/assets/c8740967-0cda-4c55-8e54-4234eecf89ea" />
 
 
 # Task 2: Create and configure a deployment slot
 
--Added a stagig slot
+-Added a stagig deployment slot 
 
 <img width="1269" height="400" alt="image" src="https://github.com/user-attachments/assets/5e62ffdc-2fcf-4cf4-b567-73f72b653ab5" />
 
 
 # Task 3: Configure web app deployment settings
 
-- Linked staging slot with external Git code repo
+- Linked staging slot with external Git code repo via CLI script
 
-<img width="1062" height="751" alt="image" src="https://github.com/user-attachments/assets/c2a2b48b-38b1-47c7-801e-889fa7408ca0" />
+<img width="1373" height="665" alt="image" src="https://github.com/user-attachments/assets/7923ff2c-c6b7-4d7d-871d-f9ea3d7f8fd2" />
 
-Staging slot outout
+- Staging slot output
 
-
+<img width="633" height="253" alt="image" src="https://github.com/user-attachments/assets/db63a422-baf9-4c40-93c8-136b5bff0a60" />
 
 
 # Task 4: Swap deployment slots
 
 Now that we have successfully tested staging slot, time to make it live on the production slot by swapping slots!
 
+- Swap Staging ---> Production slot via CLI
 
+<img width="585" height="154" alt="image" src="https://github.com/user-attachments/assets/2236a55f-a6ec-4371-9851-3ddf2436e496" />
+
+- Output of the production slot after swapping
+
+<img width="495" height="173" alt="image" src="https://github.com/user-attachments/assets/3d95e602-e908-40f6-bff0-1097e4c7b851" />
 
 
 # Task 5: Configure and test autoscaling of the Azure web app
