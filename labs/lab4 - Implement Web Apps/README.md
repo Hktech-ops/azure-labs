@@ -68,14 +68,26 @@ Now that we have successfully tested staging slot, time to make it live on the p
 
 # Task 5: Configure and test autoscaling of the Azure web app
 
-- Goal here is to scale out (horizontal scaling) with a mazimum of 2 instances to cater to increased traffic!
+- Goal here is to scale out (horizontal scaling) with a maximum of 2 instances to cater to increased traffic!
 
-- Added autoscale rule
+- Navigate to App service plan to add a custom autoscale rule
    - Scale out by 1 instacne if average CPU usage >= 80%
    - Scale in by 1 instacne if average CPU usange < 30% 
 
 <img width="1240" height="820" alt="image" src="https://github.com/user-attachments/assets/793bd925-2ede-4edc-83c7-cd583882eaff" />
 
 
+- Created a Load Test of Web App
+
+<img width="1539" height="436" alt="image" src="https://github.com/user-attachments/assets/e94638b1-818e-4be4-9eac-db1ff0efcb56" />
+
+- Load test by adding HTTP requests (URL based test)
+
+<img width="1852" height="823" alt="image" src="https://github.com/user-attachments/assets/0b354e30-d2bd-4191-9002-637bb51e6e3b" />
+
+** Test results
+
+
+***THIS MARKS THE END OF THIS LAB******
 
 
