@@ -71,8 +71,8 @@ Now that we have successfully tested staging slot, time to make it live on the p
 - Goal here is to scale out (horizontal scaling) with a maximum of 2 instances to cater to increased traffic!
 
 - Navigate to App service plan to add a custom autoscale rule
-   - Scale out by 1 instacne if average CPU usage >= 80%
-   - Scale in by 1 instacne if average CPU usange < 30% 
+   - Scale out by 1 instance if average CPU usage >= 80%
+   - Scale in by 1 instance if average CPU usange < 30% 
 
 <img width="1240" height="820" alt="image" src="https://github.com/user-attachments/assets/793bd925-2ede-4edc-83c7-cd583882eaff" />
 
