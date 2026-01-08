@@ -50,7 +50,7 @@ Your organization is interested in Azure Web apps for hosting your company websi
 
 - Staging slot output
 
-<img width="633" height="253" alt="image" src="https://github.com/user-attachments/assets/db63a422-baf9-4c40-93c8-136b5bff0a60" />
+<img width="602" height="234" alt="image" src="https://github.com/user-attachments/assets/7b556d55-9192-4464-9550-9fda5d68da99" />
 
 
 # Task 4: Swap deployment slots
