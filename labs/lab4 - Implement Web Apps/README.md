@@ -7,7 +7,7 @@
    *  Configure a Web App to display an application in external GitHub repo
    *  Create a staging slot
    *  Swap with the production slot
-   *  Autoscale to accomodate demand chnages
+   *  Autoscale to accomodate demand chnages & load URL test run
 
 
 ## Problem Statement:
