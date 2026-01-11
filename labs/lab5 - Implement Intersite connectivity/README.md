@@ -1,17 +1,19 @@
-## Lab 4 - Implement Web Apps
+## Lab 4 - Implement Intersite Connectivity
 
 ## Lab introduction
 
  * Goals:
    
-   *  Configure a Web App to display an application in external GitHub repo
-   *  Create a staging slot
-   *  Swap with the production slot
-   *  Autoscale to accomodate demand chnages & load URL test run
+   *  Implement Virtual Network (VNet) peering and test connections
+   *  Create a custom route
 
 
 ## Problem Statement:
 
-Your organization is interested in Azure Web apps for hosting your company websites. The websites are currently hosted in an on-premises data center. The websites are running on Windows servers using the PHP runtime stack. The hardware is nearing end-of-life and will soon need to be replaced. Your organization wants to avoid new hardware costs by using Azure to host the websites.
+Your organization segments core IT apps and services (such as DNS and security services) from other parts of the business, including your manufacturing department. However, in some scenarios, apps and services in the core area need to communicate with apps and services in the manufacturing area. In this lab, you configure connectivity between the segmented areas. This is a common scenario for separating production from development or separating one subsidiary from another.
 
 ## Architecture Diagram:
+
+<img width="1314" height="550" alt="image" src="https://github.com/user-attachments/assets/da9c6c75-41f7-49ea-a3a9-11f50a89ba38" />
+
+
