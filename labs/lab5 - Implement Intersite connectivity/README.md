@@ -99,7 +99,7 @@ Test-NetConnection 10.0.0.4 -port 3389
 <img width="1387" height="842" alt="image" src="https://github.com/user-attachments/assets/f2fadb4a-bbcc-483e-a6fa-267733170c07" />
 
 
-# Task 6: Create a custom route to route traffic to perimeter subnet (DMZ) before reaching to core subnets
+# Task 6: Create a custom route (User defined route) to route traffic to perimeter subnet before reaching to core subnets
 
 - Goal here is to divert routing traffic coming to CoreServices to a perimeter subnet first and then to core subnet to have better control
 
