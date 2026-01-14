@@ -124,7 +124,7 @@ Test-NetConnection 10.0.0.4 -port 3389
 
 * Benefits of creating a perimeter subnet (DMZ) :
 
-   * Without DMZ, traffic flows directly to core subnets without inspection or control
-   * With DMZ, traffic flows from 
+   * Without perimeter, internal traffic (from manufacturing) flows directly to core subnets without inspection or control
+   * With perimter, traffic flows from core subnet --> perimter (any virtual appliance VM/Firewall, Router etc.) and out to the other Vnet  
 
 ****** THIS MARKS THE COMPLETION OF THE LAB *********
