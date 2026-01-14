@@ -101,7 +101,9 @@ Test-NetConnection 10.0.0.4 -port 3389
 
 # Task 6: Create a custom route to route traffic to perimeter subnet (DMZ) before reaching to core subnets
 
-- Goal here is to divert routing traffic to a specific subnet named Perimieter subnet in CoreServices VM
+- Goal here is to divert routing traffic coming to CoreServices to a perimeter subnet first and then to core subnet to have better control
+
+- Why? By default, Azure's behaviour is to allow all subnets inside a VNet (or a peered VNet) talk to each other freely..... We are limiting this very behaviour to force internal traffic to pass through perimeter subnet first
 
 <img width="363" height="156" alt="image" src="https://github.com/user-attachments/assets/92764e45-9c17-4930-a416-51d7a3f75646" />
 
@@ -115,9 +117,14 @@ Test-NetConnection 10.0.0.4 -port 3389
 
 <img width="1597" height="557" alt="image" src="https://github.com/user-attachments/assets/d30968b3-54b2-47e7-9c14-07538c40c8fe" />
 
-- Finally, associates core subnets with the rout (perimieter subnet)
+- Finally, associated core subnet with the rout (perimieter subnet)
 
-<img width="1298" height="646" alt="image" src="https://github.com/user-attachments/assets/70800287-f976-42b2-939b-01b048984b23" />
+<img width="1265" height="607" alt="image" src="https://github.com/user-attachments/assets/07755eb5-81bb-4fa1-810f-5bd850375f94" />
 
+
+* Benefits of creating a perimeter subnet (DMZ) :
+
+   * Without DMZ, traffic flows directly to core subnets without inspection or control
+   * With DMZ, traffic flows from 
 
 ****** THIS MARKS THE COMPLETION OF THE LAB *********
