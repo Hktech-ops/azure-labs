@@ -2,7 +2,7 @@
 
 ## Lab Introduction:
 
-- In this lab you will learn about basics of Virtual Networking and Subnetting, along with Network Security Group and Application Security Groups. You will also learn about DNS zones and records.
+- In this lab you will learn about basics of Virtual Networking and Subnetting, along with Network Security Group and Application Security Groups.
 
 
 ## Problem Statement:
@@ -89,7 +89,7 @@ Goal here is to use previously exported template to tweak it and create Manufact
 
 ** Created an ASG, per above mentioned parameters **
 
-- Next, created NSG and associate it with CoreServicesVNet
+- Next, created NSG and associated it with CoreServicesVNet
 
 <img width="387" height="246" alt="image" src="https://github.com/user-attachments/assets/cb72344c-78e1-4321-8e59-c8b19c7386f1" />
 
@@ -98,6 +98,28 @@ Goal here is to use previously exported template to tweak it and create Manufact
 <img width="659" height="501" alt="image" src="https://github.com/user-attachments/assets/788a1b6a-504c-4ee0-8965-39c3d41e466e" />
 
 
-## Task 4: Configure public and private Azure DNS zones
+- Next, we will create an inbound NSG rule allow in bound traffic from ASG on ports 80, 443
+
+<img width="742" height="554" alt="image" src="https://github.com/user-attachments/assets/5e5bb95b-8a2c-496f-8c84-7a4c31249cee" />
+
+<img width="685" height="488" alt="image" src="https://github.com/user-attachments/assets/1808e990-d350-4256-9910-b91c918a8139" />
+
+** Created inbound NSG rule, per above mentioned parameters **
+
+- Next, created an outbound NSG rule that denies Internet access
+
+<img width="517" height="548" alt="image" src="https://github.com/user-attachments/assets/01c4cf99-00f8-498e-b965-bba01c9b55ef" />
+
+<img width="678" height="489" alt="image" src="https://github.com/user-attachments/assets/ed31c927-442a-45ad-b373-7f74d69607a2" />
+
+<img width="1782" height="355" alt="image" src="https://github.com/user-attachments/assets/1b9b9737-2d8c-43f1-8c38-4c5a65779190" />
+
+** Verified on the portal **
+
+
+
+***  THIS MARKS THE END OF THIS LAB  ***
+
+
 
 
