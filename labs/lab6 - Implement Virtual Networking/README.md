@@ -76,6 +76,28 @@ Goal here is to use previously exported template to tweak it and create Manufact
 
 
 ## Task 3: Create and configure communication between an Application Security Group and a Network Security Group
+
+- We will create an ASG and a NSG
+  - NSG will have an inbound security rule that allows traffic from ASG
+  - NSG will also have an outbund security rule that denies access to Internet
+
+
+<img width="386" height="255" alt="image" src="https://github.com/user-attachments/assets/4ab1e3eb-3dbf-4c9a-9cc1-f2a8b6d0bc64" />
+
+
+<img width="970" height="322" alt="image" src="https://github.com/user-attachments/assets/d66a69f4-1472-48eb-b6cf-6007212ab516" />
+
+** Created an ASG, per above mentioned parameters **
+
+- Next, created NSG and associate it with CoreServicesVNet
+
+<img width="387" height="246" alt="image" src="https://github.com/user-attachments/assets/cb72344c-78e1-4321-8e59-c8b19c7386f1" />
+
+<img width="688" height="408" alt="image" src="https://github.com/user-attachments/assets/32232c30-b64e-41d8-a3ee-99740182767d" />
+
+<img width="659" height="501" alt="image" src="https://github.com/user-attachments/assets/788a1b6a-504c-4ee0-8965-39c3d41e466e" />
+
+
 ## Task 4: Configure public and private Azure DNS zones
 
 
