@@ -42,6 +42,8 @@ The ManufacturingVnet virtual network contains systems for the operations of the
 
 ** Created 2 subnets **
 
+<img width="1410" height="475" alt="image" src="https://github.com/user-attachments/assets/7f315f80-de17-4fed-92b6-6be1b175648c" />
+
 - Navigated to portal to verify and downloaded ARM template for the creation of VNet
 - Exported ARM template contains both tempate.json and parameters.json
 
@@ -56,7 +58,6 @@ Goal here is to use previously exported template to tweak it and create Manufact
 
 ** Made necessary changes to the template and parameters file **
 
-<img width="1410" height="475" alt="image" src="https://github.com/user-attachments/assets/7f315f80-de17-4fed-92b6-6be1b175648c" />
 
 - Deployment can be done via portal > Deploy a custom template
 
