@@ -87,7 +87,7 @@ Your organization segments core IT apps and services (such as DNS and security s
 # Task 5: Use Azure PowerShell to test the connection between virtual machines
 
 * Private IP of CoreServicesVM = 10.0.0.4
-* Pricate IP of Manufacturing VM = 172.16.0.4
+* Private IP of Manufacturing VM = 172.16.0.4
 
 - Alright so now that we have peered both VNets and set NSG rules allowing network traffic to flow either way - time to test connection from ManufacturingVM to CoreServicesVM
 
