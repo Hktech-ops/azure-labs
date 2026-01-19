@@ -45,11 +45,14 @@ Following NSG rules will be implemented:
 
 
 
+<img width="620" height="528" alt="image" src="https://github.com/user-attachments/assets/41a08f06-2161-46d8-80b4-8cdb1d8cfd24" />
+
+** Rule 3: Deny inbound traffic on port 80(HTTP) from asg-mgmt
 
 
-** Rule 3: Allow inbound traffic on port 3389(RDP) from asg-mgmt
+<img width="620" height="507" alt="image" src="https://github.com/user-attachments/assets/6ee797d8-a33d-483b-a606-8cefc7ff8a80" />
 
+** Rule 4: Allow inbound traffic on port 3389(RDP) from asg-mgmt
 
-** Rule 4: Deny inbound traffic on port 80(HTTP) from asg-mgmt
 
 
