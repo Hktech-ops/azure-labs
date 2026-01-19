@@ -57,6 +57,8 @@ Following NSG rules will be implemented:
 
 ## Task 3: Associate nsg-1 with subnet-1
 
+
+
 <img width="602" height="501" alt="image" src="https://github.com/user-attachments/assets/ccd956d5-2f80-428f-8638-b9163697a791" />
 
 
