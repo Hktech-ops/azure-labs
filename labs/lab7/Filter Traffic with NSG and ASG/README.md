@@ -57,11 +57,31 @@ Following NSG rules will be implemented:
 
 ## Task 3: Associate nsg-1 with subnet-1
 
-
-
 <img width="602" height="501" alt="image" src="https://github.com/user-attachments/assets/ccd956d5-2f80-428f-8638-b9163697a791" />
 
 
-## Task 4: Deploy VMs
+## Task 4: Deploy VMs and associate their NICs to ASGs
+
+<img width="1631" height="667" alt="image" src="https://github.com/user-attachments/assets/dd63868e-a56b-4cae-b1e0-588adddb91b3" />
+
+<img width="1687" height="642" alt="image" src="https://github.com/user-attachments/assets/7c26dbfa-0b74-4f38-b403-d964640de8c8" />
+
+** Deployed 2 Windows VMs **
+
+- Recall, we had created 2 ASGs earlier
+
+<img width="1388" height="132" alt="image" src="https://github.com/user-attachments/assets/55f9089f-c7d0-44c0-a6f9-6ab1debe0812" />
+
+** Queried ids of both ASGs - to be used in the next command **
+
+<img width="978" height="444" alt="image" src="https://github.com/user-attachments/assets/1aa70fef-dfcb-4e82-9c9c-e4de7e05df05" />
+
+<img width="1060" height="468" alt="image" src="https://github.com/user-attachments/assets/d20b4d85-f153-4ede-b1ce-833e6e365f31" />
+
+** Associate NICs to their respective ASGs **
+
+## Task 5: Put your architecture to test!
+
+
 
 
