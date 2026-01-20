@@ -35,24 +35,24 @@ Following NSG rules will be implemented:
 
 ** Created NSG **
 
-<img width="609" height="483" alt="image" src="https://github.com/user-attachments/assets/c294e88d-8ca6-443d-b025-c7b1c7173a8e" />
+<img width="660" height="459" alt="image" src="https://github.com/user-attachments/assets/652bb0a3-c6ba-4c86-8f99-2885a83d811b" />
 
-** Rule 1: Allow inbound traffic on port 80(HTTP) from asg-web
+** Rule 1: Allow inbound traffic on port 80(HTTP) to asg-web
 
-<img width="572" height="459" alt="image" src="https://github.com/user-attachments/assets/576f4661-3fb9-41ef-b014-c3645794134b" />
+<img width="720" height="464" alt="image" src="https://github.com/user-attachments/assets/5e4c955b-97b5-4569-b0a1-58e99da8d13b" />
 
-** Rule 2: Deny inbound traffic on port 3389(RDP) from asg-web
-
-
-
-<img width="620" height="528" alt="image" src="https://github.com/user-attachments/assets/41a08f06-2161-46d8-80b4-8cdb1d8cfd24" />
-
-** Rule 3: Deny inbound traffic on port 80(HTTP) from asg-mgmt
+** Rule 2: Deny inbound traffic on port 3389(RDP) to asg-web
 
 
-<img width="620" height="507" alt="image" src="https://github.com/user-attachments/assets/6ee797d8-a33d-483b-a606-8cefc7ff8a80" />
 
-** Rule 4: Allow inbound traffic on port 3389(RDP) from asg-mgmt
+<img width="597" height="485" alt="image" src="https://github.com/user-attachments/assets/1cdd0a0f-b789-4152-9e8c-b9f0fa47f847" />
+
+** Rule 3: Deny inbound traffic on port 80(HTTP) to asg-mgmt
+
+
+<img width="661" height="457" alt="image" src="https://github.com/user-attachments/assets/a3b1f077-8d23-4f94-b710-430815960a93" />
+
+** Rule 4: Allow inbound traffic on port 3389(RDP) to asg-mgmt
 
 
 ## Task 3: Associate nsg-1 with subnet-1
