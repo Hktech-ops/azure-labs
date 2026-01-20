@@ -1,4 +1,4 @@
-## Lab 7 : Filter traffic with a Network Security Group and Application Securoity Group
+## Lab 7 : Filter traffic with a Network Security Group and Application Decurity Group
 
 ## Lab Scenario:
 This lab illustrates Filtering of Network traffic via NSG
