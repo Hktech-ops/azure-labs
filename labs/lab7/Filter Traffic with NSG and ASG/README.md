@@ -93,6 +93,12 @@ Following NSG rules will be implemented:
 *** Unable to connect vm-1 via RDP  --> NSG rule - Inbound traffic on port 3389 is disabled ***
 
 
+*** Was able to access vm-1 from my IP address  ---> After allowing traffic through port 80 in the Windows Firewall settings****
+
+
+
+**** THIS MARKS THE END OF THIS LAB *******
+
 
 
 
