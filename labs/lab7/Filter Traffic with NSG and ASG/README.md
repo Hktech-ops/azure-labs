@@ -70,17 +70,30 @@ Following NSG rules will be implemented:
 
 - Recall, we had created 2 ASGs earlier
 
-<img width="1388" height="132" alt="image" src="https://github.com/user-attachments/assets/55f9089f-c7d0-44c0-a6f9-6ab1debe0812" />
 
-** Queried ids of both ASGs - to be used in the next command **
+<img width="1016" height="527" alt="image" src="https://github.com/user-attachments/assets/9bcbf55e-4148-4dfe-8874-d3fec0b17c08" />
 
-<img width="978" height="444" alt="image" src="https://github.com/user-attachments/assets/1aa70fef-dfcb-4e82-9c9c-e4de7e05df05" />
+<img width="1008" height="387" alt="image" src="https://github.com/user-attachments/assets/cadb404c-0e61-4e49-a7f5-30f72472dfc6" />
 
-<img width="1060" height="468" alt="image" src="https://github.com/user-attachments/assets/d20b4d85-f153-4ede-b1ce-833e6e365f31" />
-
-** Associate NICs to their respective ASGs **
+** Associated NICs to their respective ASGs **
 
 ## Task 5: Put your architecture to test!
+
+<img width="1237" height="794" alt="image" src="https://github.com/user-attachments/assets/ea10d2e9-0bac-4b05-b88a-85b9f6fb68e2" />
+
+*** Able to access vm-2 via RD Gateway ---> NSG rule - Inbound traffic on port 3389 is allowed ****
+
+<img width="1057" height="775" alt="image" src="https://github.com/user-attachments/assets/1f37e872-54f1-4c29-ac61-b5007ffe34bd" />
+
+** Unable to access vm-2 via Public IP  ---> NSG rule - Inbound traffic on port 80 is denied ****
+
+
+<img width="1258" height="686" alt="image" src="https://github.com/user-attachments/assets/58d757d6-fb68-489a-9e7c-e140c141a97a" />
+
+*** Unable to connect vm-1 via RDP  --> NSG rule - Inbound traffic on port 3389 is disabled ***
+
+
+
 
 
 
